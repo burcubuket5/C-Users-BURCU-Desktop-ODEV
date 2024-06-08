@@ -1,0 +1,3 @@
+proje ödev dosyasının içindedir. 
+kurulum için gerekli olan xmapp ve composer yazılımının .exe dosyaları ödev klasöründe mevcuttur.
+bunun haricinde program kurulumları ve projenin kurulum adımları kurulum.txt dosyasında adım adım açıklanmıştır.

@@ -1,0 +1,24 @@
+Öncelikle Xampp'ı kuruyoruz. bize lazım olan apache phpmyadmin ve perl yeterli.
+
+Sonrasında Composer'ı kuruyoruz, next, next diyerek ve PATH'e ekleme ile
+alakalı bir seçenek çıkarsa onu işaretleyerek kurulumunu tamamlıyoruz.
+
+daha sonrasında c diski xmapp klasöründe htdocs dizinine projemizi ekliyoruz. sonrasında eklediğimiz klasörde
+app/Config/Database.php içerisinden mysql ayarlarını düzenliyoruz.
+
+Sonrasında;
+admin-panel içerisinde powershell açıyoruz, (shift Tuşuna basarak fare ile sağ tık yapıyoruz.)
+shift'e basılı tutup klasöre sağ tıklarsak seçenek çıkacaktır oradan powershelli seçiyoruz .
+
+php spark migrate,
+metodu ile veritabanında gereken tablolar ve ilk admin kullanıcısı oluşturuluyor.
+
+Detayları listelenen klasörlerden izleyebilirsiniz.
+
+xmapp php.ini içerisinden "=intl" aratıp
+
+extension=intl olan satırın başından ; siliyoruz ve bu plugini açıyoruz.
+
+admin@panel.com kullanıcısı şifresi '1234'.
+
+php spark serve ile de çalıştırıyoruz.
